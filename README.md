@@ -19,12 +19,6 @@ Os comandos abaixo só funcionam se você instalou o uv de forma prévia. [Link 
 ```bash
 # os comandos a seguir instalam a versão python e criam o ambiente virtual
 uv python install 3.12
-uv venv --python=python3.12
-
-# caso seja linux ou mac
-source .venv/bin/activate
-# caso seja windows você deve mudar a política de execução de scripts
-.venv/Scripts/activate
 
 # agora você vai sincronizar seu ambiente virtual
 uv sync
