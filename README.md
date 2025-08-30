@@ -17,9 +17,6 @@ git pull origin main
 ### Configuração do UV
 Os comandos abaixo só funcionam se você instalou o uv de forma prévia. [Link da documentação do uv](https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
-# os comandos a seguir instalam a versão python e criam o ambiente virtual
-uv python install 3.12
-
-# agora você vai sincronizar seu ambiente virtual
+# Este comando cria um ambiente virtual com python na versão definida com as bibliotecas necessárias.
 uv sync
 ```
