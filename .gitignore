@@ -1,4 +1,6 @@
 .venv
 limpezaSegundafase/CSVs/Baixados/
 limpezaSegundafase/CSVs/Gerados/
+# OBS.: Escondi esse CSV pois estava confundindo muito a gente, deixei só o CSV que tinha mais informações exposto no repositório
+2.0_dados_abertos_UFRN/1_limpeza_de_dados/databases/docentes_e_avaliação_criptografado.csv
 .env
